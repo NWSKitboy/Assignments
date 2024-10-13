@@ -1,0 +1,128 @@
+/* Joey Braga 8658378 */
+/* Style Sheet for Matthew Mercer website */
+
+h1{
+    font: large;
+    color: white;
+}
+
+h3{
+    font: small;
+    color: white;
+}
+
+body{
+    width: 1200px;
+    max-width: auto;
+    margin: auto;
+    padding: 10px;
+    font: 18px/1.25 "Courier New"; 
+    background-image: radial-gradient( rgb(84, 44, 154) 10%, blue 30%, purple 70%);
+}
+
+header{
+    background-color: rgb(54, 51, 51);
+    padding:10px;
+    text-align: center;
+    border: solid antiquewhite 4px;
+    border-radius: 30px;
+    margin: 10px;
+    font: bold 20px/1.5 "Times New Roman";
+}
+
+
+
+header h3{
+    font: italic smaller "Courier New";
+    color: white;
+}
+
+h2{
+    margin: 10px;
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: 15%;
+}
+
+main{
+    margin: 10px;
+    width: 80%;
+}
+section{
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin: 10px;
+    width: 70%;
+}
+
+aside{
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: 25%;
+    float: right;
+    padding: 2px;
+    text-wrap: wrap;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(54, 51, 51);
+    border: solid antiquewhite 4px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+img{
+    border: solid rgb(62, 41, 122) 4px;
+    border-radius: 150px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+}
+.mainimg{
+    width: 55%;
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+
+figcaption{
+    width: 40%;
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin: 10px;
+    font: bold 16px/1.5 small-caps;
+}
+
+q{
+    font: italic 18px/1.5 "cursive";
+}
+
+.clear{
+    background-color: none;
+    border: none;
+    clear: both;
+}
+ul li{
+    list-style: none;
+    line-height: 2;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(104, 2, 104);
+    font: bold medium "Times New Roman";
+}
+
+a:hover{
+    color: limegreen;
+}
