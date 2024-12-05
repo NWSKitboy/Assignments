@@ -1,0 +1,223 @@
+/* Joey Braga 8658378 */
+/* Style Sheet for Matthew Mercer website */
+
+html {
+    display: table;
+    margin: auto;
+    width:1200px;
+
+}
+
+header h1{
+    font: large;
+    color: white;
+}
+
+h3{
+    font: small;
+    color: white;
+}
+
+body{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    font: 18px/1.25 "Courier New"; 
+    background-image: radial-gradient( rgb(84, 44, 154) 10%, blue 30%, purple 70%);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    padding:60px;
+    width: 100%;
+    text-align: center;
+    border: solid white 4px;
+    border-radius: 30px;
+    margin: 10px;
+    font: bold 20px/1.5 "Times New Roman";
+    background-image: linear-gradient(90deg, white 10%, grey 30%, black 60%);
+
+}
+
+header h3{
+    font: italic smaller "Courier New";
+    color: white;
+}
+
+main{
+    margin: 10px;
+    width: 80%;
+}
+
+section{
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+}
+
+h2 {
+    margin: 10px;
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: white;
+    width: 15%;
+}
+
+aside {
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: white; 
+    background-image: url(https://i.pinimg.com/736x/e3/68/09/e36809ef5b4bc9517a82019cb3557c5b.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 25%;
+    float: right;
+    padding: 2px;
+    text-wrap: wrap;
+}
+
+aside h2 {
+    background-color: rgb(104, 2, 104);
+    width: 90%;
+    opacity: 80%;
+    border: none; 
+    color: rgb(255, 255, 255);
+}
+
+aside a{
+    background-color: white;
+    width: 120%;
+    opacity: 90%;
+    border: none; 
+    border-radius: 5px ;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(90deg, white 10%, grey 30%, black 60%);
+    border: solid white 4px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.mainimg{
+    width: 55%;
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+    shape-outside: inset(14%, 11%, 0%, 0%);
+
+}
+
+
+figcaption{
+    width: 40%;
+    border: solid transparent 2px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+    font: bold 16px/1.5 small-caps;
+}
+
+q{
+    font: italic 18px/1.5 "cursive";
+}
+
+.clear{
+    background-color: none;
+    border: none;
+    clear: both;
+}
+ul li{
+    list-style: none;
+    line-height: 2;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(104, 2, 104);
+    font: bold medium "Times New Roman";
+}
+
+nav div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+}
+
+a:hover{
+    color: limegreen;
+}
+
+.clear{
+    padding: 0px;
+}
+
+nav > div{
+    position: relative;
+}
+
+nav div div{
+    position: absolute;
+    display: none;
+    width: 120px;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: rgb(54, 51, 51);
+    padding: 10px;
+    margin: 10px;
+    top: -40px;
+}
+
+nav div:hover div{
+    display: inline-block;
+}
+
+.gallery{
+    max-width: 1200px;
+    min-width: 1200px;
+    padding-left: 7%;
+}
+
+.gallery .container{
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: 30px;
+}
+
+.gallery .container img{
+    padding-bottom: 20px;
+    clip-path: circle(50%)
+}
+
+iframe{
+    padding-left: 20px;
+}
+
+.contact-form {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    background-image: radial-gradient( rgb(84, 44, 154) 10%, blue 30%, purple 70%) !important;
+}
